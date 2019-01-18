@@ -1,0 +1,22 @@
+{
+  "name": "ripecss-vue",
+  "version": "0.0.1",
+  "description": "RipeCSS-vue",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreamvention/RipeCSS-vue.git"
+  },
+  "keywords": [
+    "ripeCSS"
+  ],
+  "author": "Dreamvention",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dreamvention/RipeCSS-vue/issues"
+  },
+  "homepage": "https://github.com/Dreamvention/RipeCSS-vue#readme",
+  "dependencies": {
+    "loadsh": "0.0.3"
+  }
+}
