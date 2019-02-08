@@ -10,7 +10,6 @@ const VuePlugin = {
     Vue._ripecss_vue_installed = true
 
     for (let plugin in components) {
-      console.log(components[plugin])
       Vue.use(components[plugin])
     }
   }

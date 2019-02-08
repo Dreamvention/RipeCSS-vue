@@ -1,9 +1,6 @@
 export function registerComponent(Vue, name, def) {
   Vue._ripecss_vue_components_ = Vue._ripecss_vue_components_ || {}
   const loaded = Vue._ripecss_vue_components_[name]
-  console.log(loaded)
-  console.log(def)
-  console.log(name)
   if (!loaded && def && name) {
     Vue._ripecss_vue_components_[name] = true
     Vue.component(name, def)
