@@ -1,1 +1,11 @@
+*.iml
+*.log
+*.swp
+.DS_Store
+.idea/
+.vscode/
+coverage/
+dist/
+docs-dist/
+es/
 node_modules/

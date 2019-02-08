@@ -1,0 +1,11 @@
+.color-box-icon {
+  cursor: pointer;
+  border: 1px solid #d0d6ef;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  & + .color-box-text {
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+}
