@@ -1,5 +1,5 @@
 {
-  "name": "ripecss-vue",
+  "name": "@dreamvention/ripecss-vue",
   "version": "0.0.1",
   "description": "RipeCSS-vue",
   "main": "dist/ripecss-vue.common.js",
