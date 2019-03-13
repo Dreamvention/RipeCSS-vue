@@ -4,8 +4,8 @@ const babel = require('rollup-plugin-babel')
 const resolve = require('rollup-plugin-node-resolve')
 const commonjs = require('rollup-plugin-commonjs')
 const { camelCase } = require('lodash')
-const { name, dependencies } = require('../package.json')
-
+let { name, dependencies } = require('../package.json')
+name = name.split('/')[1]
 const base = path.resolve(__dirname, '..')
 const src = path.resolve(base, 'src')
 const dist = path.resolve(base, 'dist')

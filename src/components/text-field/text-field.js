@@ -26,8 +26,10 @@ export default {
       default: 'md'
     },
     errorMessages: {
-      type: String,
-      default: ''
+      type: Array,
+      default() {
+        return []
+      }
     },
     value: {
       type: String,
